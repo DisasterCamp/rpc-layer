@@ -79,7 +79,9 @@
             <dependency>
                 <groupId>io.github.disaster1-tesk</groupId>
                 <artifactId>rpc-layer-dependencies</artifactId>
-                <version>${version}</version>
+                <version>${revision}</version>
+                <scope>import</scope>
+                <type>pom</type>
             </dependency>
         </dependencies>
     </dependencyManagement>
